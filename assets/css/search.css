@@ -1,0 +1,11 @@
+.sidebar #search_results li{
+    color:#fff ;
+    background: rgb(15, 23, 42);
+    padding: 8px 12px;
+}
+.sidebar #search_results{
+    display:none;
+}
+.sidebar.active #search_results{
+    display: block;
+}

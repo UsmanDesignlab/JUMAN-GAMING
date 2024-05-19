@@ -1,0 +1,128 @@
+#notification {
+  width: 500px;
+  height: 170px;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  z-index: 9999;
+  text-align: center;
+  background-color: #4299e1;
+
+}
+#notification h2 {
+  margin-top: 0;
+  color: white;
+}
+#notification p{
+  margin-top:10px;
+  color: white;
+}
+#notification #noti {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-left:0px;
+  margin-top: 20px;
+  color: black;
+  font-weight: 500;
+  border: none;
+}
+
+.tictac {
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+ .toe h4 {
+        font-size: 25px;
+        color: #4299e1;
+        margin-top: -20px;
+}
+#scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+      
+ #tic-tac-toe {
+        border-spacing: 0px;
+        border-collapse: separate;
+        margin: 30px auto;
+      }
+      
+#tic-tac-toe td {
+        border: 2px solid #4299e1;
+        height:60px;
+        width: 60px;
+        text-align: center;
+        font: bold 30px comic sans ms;
+      }
+      
+#tic-tac-toe tr:first-child td {
+        border-top: none;
+      }
+      
+#tic-tac-toe tr:last-child td {
+        border-bottom: none;
+      }
+      
+#tic-tac-toe tr td:first-child {
+        border-left: none;
+      }
+#tic-tac-toe tr td:last-child {
+        border-right: none;
+      }
+      
+#tic-tac-toe td.X {
+        color: #ed676b;
+      }
+      
+#tic-tac-toe td.O {
+        color: #23916b;
+      }
+      
+#scoreboard .score {
+        text-align: center;
+        font-size: 30px;
+      }
+      
+#scoreboard .score#player1 {
+        color: #ed676b;
+      }
+      
+#scoreboard .score#player2 {
+        color: #23916b;
+      }
+ .restart{
+        background-color: #ed676b;
+        width: 70px;
+        height: 30px;
+        border: none;
+      }
+.restart:hover{
+        background-color: #4299e1;
+      }
+select{
+        background-color: #23916b;
+        width: 70px;
+        height: 30px;
+        border: none;
+        padding-left: 5px;
+        margin-top: 20px;
+      }
+select option{
+        background-color: white;
+        color: black;
+      }
